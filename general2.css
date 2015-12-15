@@ -1,0 +1,189 @@
+/*
+* ======================================================================
+* ----------------------------------------------------------------------
+* Type    :    css
+* Author  :    Alexander
+* Website :    http://www.alexringo.blogspot.com
+* ----------------------------------------------------------------------
+* You may use and/or modify the codes below and its associated files
+* as long as you leave the author credit remain intact
+* ----------------------------------------------------------------------
+* ======================================================================
+*/
+
+body, .body-fauxcolumn-outer{background-color:#f8f8f8; margin-top:20px; color:#333;  color:#222; text-align:center; font-family:Arial; font-size:14px}
+a:link, a:visited{color:#000; text-decoration:none}
+a:hover, a:active{color:#333}
+a img{border-width:0}
+#header-wrapper{background:#fff; margin:0 auto; width:970px; overflow:hidden}
+#header-inner{background-position:center; margin-left:auto; margin-right:auto}
+#header{padding-left:20px; font-family:arial; width:900px; text-align:left; float:left; height:70px; color:#000}
+#header h1{font:25px "Segoe UI",Arial; font-weight:bold; color:#000; text-align:left; margin-top:5px; padding:6px 0 8px}
+#header a{text-decoration:none; color:#000; border:0}
+#header .description{font-size:1em}
+#header img{margin-left:auto; margin-right:auto}
+#outer-wrapper{background:#fff; margin:0 auto; width:900px; overflow:hidden; border:1px solid #EEE; text-align:left;font-family:"Segoe UI",Arial;font-size:14px}
+#main-wrapper{margin:0; width:560px; float:left; margin:0; padding:0 5px 0 20px; line-height:150%; word-wrap:break-word; overflow:hidden;font-family:"Segoe UI",Arial;}
+#footer-wrapper{font-size:12px;margin-left:auto;margin-right:auto;border-top:1px solid #EEE}
+h2.date-header{line-height:1em; font:normal normal 70% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif; text-transform:uppercase; letter-spacing:.2em; color:#000}
+.post{margin:0 0 10px 0; padding-left:0;font-family:"Segoe UI",Arial;}
+.post h2{font-size:13px; margin:0 0 10px 0; border-bottom:1px solid #EEE}
+.post h2 a, .post h2 a:visited, .post h2 strong{display:block; text-decoration:none; color:#000; font-weight:bold}
+.post h2 strong, .post h2 a:hover{text-decoration:underline}
+.post-body{line-height:1.6em}
+.post-body blockquote{line-height:1.3em}
+.post-footer{margin:20px 0 0; color:#000; font-size:14px}
+.comment-link{margin-left:.6em}
+.post img{padding:4px; background:#FFF; opacity:1; }
+.post img:hover{opacity:.5; }
+.post blockquote{border:1px solid #EEE; padding:5px}
+.jump-link a{ padding:5px 3px; text-align:left; color:#333; background:#e1e1e1; font-size:11px; margin:0}
+.clear{clear:both}
+footer-wrapper h5, .footer-wrapper h6 {
+display: inline-block; 
+}
+#sidebar-wrapper{float:right; margin-top:3px; padding-right:5px; width:300px; display:inline}
+#sidebar h2, #sidebar h3{font-size:14px; font-family:Arial,Sans-Serif; margin:5px 0 5px 0; padding:5px; border:1px #DDD solid; background:#FFF;  color:#000;}
+#sidebar .widget-content{background:#fff; margin:0; font-size:14px; }
+#sidebar ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0}
+#sidebar li{list-style-type:none;padding:0 10px 0 15px;;border-bottom: 1px dotted #999;line-height:1.7em;margin:0}
+#sidebar .widget-content ul li a{color:#000}
+#sidebar .item-snippet{font-size:12px}
+#sidebar .item-thumbnail{background:#e5e5e5; margin:3px 8px 8px 0; padding:3px; border:1px solid #ccc}
+#sidebar .item-thumbnail a img{height:66px; width:74px; display:block; margin:0; padding:0}
+#comments.comments{background:#fff; padding:5px}
+#comments-block{line-height:1.4em; margin:8px 0; color:#000}
+#comments-block .comment-author a:hover{color:#cc3a1e}
+#comments-block .comment-author{background:#333; font-weight:normal; margin:8px 0 0 0; padding:4px; border-top:1px solid #aaa; border-right:1px solid #aaa; border-left:1px solid #aaa}
+#comments-block .comment-body{background:#333; margin:0; padding-top:4px; padding-right:1.8%; padding-bottom:4px; padding-left:1.8%; border-right:1px solid #aaa; border-left:1px solid #aaa}
+#comments-block .comment-footer{background:#333; font-size:8em; line-height:1.4em; margin:0; padding:4px; border-right:1px solid #aaa; border-bottom:1px solid #aaa; border-left:1px solid #aaa; text-transform:none}
+#comments .blogger-comment-icon{background:none repeat scroll 0 0 #333; border-color:#aaa; border-style:solid; border-width:1px; line-height:1em; padding:0}
+.comment-form{margin:0; padding:0}
+.deleted-comment{color:gray; font-style:italic}
+.comments h4{color:#000; font-size:16px; padding:0}
+.comments{clear:both}
+.comments .comments-content{font-size:13px; margin-bottom:8px; color:#000}
+.comments .comment .comment-actions a{background:#FFF; border:1px solid #CCC; color:#000; padding:2px 6px; margin-right:6px}
+.comments .comment .comment-actions a:hover{background:#f8f8f8}
+.comments .comments-content .comment-thread ol{list-style-type:none; text-align:left; margin:8px 0; padding:0}
+.comments .comments-content .inline-thread{padding:0; margin:0}
+.comments .comments-content .comment-thread{margin:0; padding:0}
+.comments .comments-content .comment-thread:empty{display:none}
+.comments .comments-content .comment-replies{margin-top:8px; margin-left:44px}
+.comments .comments-content .comment{margin-bottom:6px; padding:0}
+.comments .comments-content .comment:first-child{padding:0; margin:0}
+.comments .comments-content .comment:last-child{padding:0; margin:0}
+.comments .comments-content .user{font-style:normal; font-weight:bold}
+.comments .comments-content .datetime{text-align:right; margin-left:6px}
+.comments .comments-content .comment-header{background:#FFF; margin:0; padding:2px 2px 2px 2px; padding:5px; border:1px solid #ccc}
+.comments .comments-content .comment-content{text-align:justify; margin:0; padding-top:8px; padding-bottom:8px; font-size:13px}
+.comments .comments-content .owner-actions{border:#ccc solid 1px}
+.comments .comments-replybox{height:250px; max-width:100%}
+.comments .comment-replybox-single{padding:0; margin:8px 0; margin-left:44px}
+.comments .comment-replybox-thread{margin:8px 0 0 0; padding:0}
+.comments .comments-content .loadmore a{padding:6px 10px; text-align:center}
+.comments .thread-toggle{background:#FFF; cursor:pointer; padding:2px 4px; margin:0; display:block; border:1px solid #ccc}
+.comments .continue{cursor:pointer}
+.comments .continue a{background:#FFF; text-align:center; margin-bottom:10px; padding:4px; display:block; border:1px solid #ccc}
+.comments .comments-content .loadmore{cursor:pointer; max-height:3em; margin-top:8px}
+.comments .comments-content .loadmore.loaded{max-height:13px; opacity:0; overflow:hidden}
+.comments .thread-chrome.thread-collapsed{display:none}
+.comments .thread-toggle{display:inline-block}
+.comments .thread-toggle .thread-arrow{display:inline-block; height:6px; width:7px; overflow:visible; margin:.3em; padding-right:4px}
+.comments .avatar-image-container{border-radius:3px; float:left; width:36px; height:36px; overflow:hidden; border:#ccc solid 1px; padding:0}
+.comments .avatar-image-container img{width:36px}
+.comments .comment-block{border-radius:3px; background:#FFF; padding:8px; margin-left:44px; border:#ccc solid 1px}
+#menuwrapperpic{background:#fff; width:100%; border-top:1px solid #e9e9e9; border-bottom:3px solid #000}
+#menuwrapper{width:970px; height:28px; margin:0 auto}
+.clearit{clear:both; height:0; line-height:.0; font-size:0}
+#footer-wrapper h3{font-size:15px; font-family:Calibri,Arial,Sans-Serif; margin:5px 0 5px 0;  border:1px #DDD solid; background:#FFF; color:#000}
+.footer-left{float:left;text-align:left;padding:10px;}
+.footer-right{float:right;text-align:right;padding:10px;}
+.main .Blog{border-bottom-width:0}
+.permalink-blog{border:1px solid #DDD; padding:10px; background:#fff; font-size:13px;margin-top:15px}
+.permalink-blog a{background:0}
+.permalink-blog:hover{background:#f8f8f8}
+.breadcrumbs{padding:5px 5px 5px 0; margin-bottom:20px; margin-top:5px; font-size:11px; color:#5b5b5b; border-bottom:1px dotted #eee; }
+#blog-pager-newer-link{float:left}
+#blog-pager-older-link{float:right}
+.home{width:80px; margin:0 auto; text-align:center}
+#blog-pager{margin:0; padding:4px 0; text-align:center;}
+a.pager{font-size:13px; font-family:Arial,Sans-Serif; margin:5px 0 5px 0; padding:5px; border:1px #DDD solid; background:#FFF;  color:#000; padding:2px 8px}
+a.pager:hover{background:#f8f8f8}
+.post-body ul li, .post-footer ul li{list-style:none; padding:9px 5px 9px 14px; border-bottom:1px solid #eee; line-height:18px; background:url(http://2.bp.blogspot.com/-ipsIvfDpiDA/T4MMjQaiGAI/AAAAAAAAAPE/0Jo4k87vtPc/bullet.png) no-repeat 0 14px}
+.tombol{font-size:15px; font-family:Calibri,Arial,Sans-Serif; margin:5px 0 5px 0; padding:5px; border:1px #DDD solid; background:#FFF;  color:#000; padding:2px 8px}
+.tombol:hover{background:#f8f8f8}
+#ArchiveList .toggle{cursor:pointer; font-family:Arial,sans-serif}
+#ArchiveList .toggle-open{_font-size:1.7em; line-height:.6em}
+#ArchiveList{text-align:left}
+#ArchiveList a.post-count-link, #ArchiveList a.post-count-link:link, #ArchiveList a.post-count-link:visited{text-decoration:none}
+#ArchiveList a.toggle, #ArchiveList a.toggle:link, #ArchiveList a.toggle:visited, #ArchiveList a.toggle:hover{color:inherit; text-decoration:none}
+.BlogArchive #ArchiveList ul li{background:none; list-style:none; list-style-image:none; list-style-position:outside; border-width:0; padding-left:15px; text-indent:-15px; margin:.25em 0; background-image:none}
+.BlogArchive #ArchiveList ul ul li{padding-left:1.2em}
+.BlogArchive #ArchiveList ul{margin:0; padding:0; list-style:none; list-style-image:none; border-width:0}
+.BlogArchive #ArchiveList ul.posts li{padding-left:1.3em}
+#ArchiveList .collapsed ul{display:none}
+.quickedit{display:none;}
+h2.date-header, .jump-link, .feed-link, .post-footer{display:none}
+.PopularPosts .item-thumbnail{float:left; margin:0 5px 5px 0}
+.PopularPosts .widget-content ul li{padding:.7em 0}
+.PopularPosts img{padding-right:.4em}
+.PopularPosts .item-title{padding-bottom:.2em}
+.profile-img{float:left; margin:0 5px 5px}
+.profile-data{margin:0}
+.profile-datablock{margin:.5em 0}
+.profile-name-link{background:no-repeat left top; display:inline-block; min-height:20px; padding-left:20px}
+.profile-textblock{margin:.5em 0}
+.feed-reader-links{list-style:none; margin:10px 20px; padding:0; position:relative}
+.subscribe-dropdown-arrow{float:right; margin-right:6px; margin-top:4px}
+.feed-reader-links{list-style:none; margin:0; padding:0}
+a.feed-reader-link{display:block; font-weight:normal; margin:.5em; text-decoration:none; z-index:1000}
+.feed-reader-link img{border:0; display:inline}
+#readmore-img{float:left; padding:0px 10px 5px 0px}
+#footer-column-container{clear:both}
+.footer-column{padding:10px}
+#footer-column-container h2, #footer-column-container h3{font-size:14px; font-family:Arial,Sans-Serif; margin:5px 0 5px 0; padding:5px; border:1px #DDD solid; background:#FFF;  color:#000;}
+#footer-column-container ul{list-style-image:none; list-style-position:outside; list-style-type:none; margin:0; padding:0}
+#footer-column-container li{list-style-type:none; padding:0 10px 0 15px; ; border-bottom:1px dotted #999; line-height:1.7em; margin:0}
+#footer-column-container{clear:both}
+.footer-column{padding:10px}
+.label-size{font-size:14px; margin:5px; float:left; text-decoration:none; padding:5px; border:1px #DDD solid; background:#FFF;  color:#000;}
+.label-size a{color:#000}
+.showpageArea a {
+text-decoration:underline;
+}
+.showpageNum a {
+text-decoration:none;
+border: 1px solid #cccccc;
+margin:0 3px;
+padding:3px;
+}
+.showpageNum a:hover {
+border: 1px solid #cccccc;
+background-color:#cccccc;
+}
+.showpagePoint {
+color:#333;
+text-decoration:none;
+border: 1px solid #cccccc;
+background: #cccccc;
+margin:0 3px;
+padding:3px;
+}
+.showpageOf {
+text-decoration:none;
+padding:3px;
+margin: 0 3px 0 0;
+}
+.showpage a {
+text-decoration:none;
+border: 1px solid #cccccc;
+padding:3px;
+}
+.showpage a:hover {
+text-decoration:none;
+}
+.showpageNum a:link,.showpage a:link {
+text-decoration:none;
+color:#333333;
+}
